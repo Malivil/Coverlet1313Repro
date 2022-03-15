@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="14" visitedSequencePoints="14" numBranchPoints="12" visitedBranchPoints="11" sequenceCoverage="100" branchCoverage="91.66" maxCyclomaticComplexity="12" minCyclomaticComplexity="12" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+  <Modules>
+    <Module hash="D8D43971-2FAD-40C0-8BAC-D012FD769189">
+      <ModulePath>CoverletRepro.dll</ModulePath>
+      <ModuleTime>2022-03-15T12:33:50</ModuleTime>
+      <ModuleName>CoverletRepro</ModuleName>
+      <Files>
+        <File uid="1" fullPath="D:\Documents\Other\Coding Projects\CoverletRepro\CoverletRepro\CoverletRepro.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="14" visitedSequencePoints="14" numBranchPoints="12" visitedBranchPoints="11" sequenceCoverage="100" branchCoverage="91.66" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>CoverletRepro.CoverletRepro</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="6" nPathComplexity="6" sequenceCoverage="100" branchCoverage="83.33" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="6" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="83.33" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean CoverletRepro.CoverletRepro::TestString(System.String)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="20" uspid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="20" uspid="9" ordinal="1" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="20" uspid="10" ordinal="2" sl="10" sc="1" el="10" ec="2" bec="6" bev="5" fileid="1" />
+                <SequencePoint vc="8" uspid="11" ordinal="3" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="8" uspid="12" ordinal="4" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" uspid="15" ordinal="5" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="20" uspid="16" ordinal="6" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="10" uspid="10" ordinal="0" path="0" offset="19" offsetend="21" sl="10" fileid="1" />
+                <BranchPoint vc="10" uspid="10" ordinal="2" path="0" offset="24" offsetend="26" sl="10" fileid="1" />
+                <BranchPoint vc="0" uspid="10" ordinal="3" path="1" offset="24" offsetend="36" sl="10" fileid="1" />
+                <BranchPoint vc="10" uspid="10" ordinal="1" path="1" offset="19" offsetend="39" sl="10" fileid="1" />
+                <BranchPoint vc="8" uspid="10" ordinal="4" path="0" offset="42" offsetend="44" sl="10" fileid="1" />
+                <BranchPoint vc="12" uspid="10" ordinal="5" path="1" offset="42" offsetend="49" sl="10" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="7" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="8" ec="1" el="16" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="6" nPathComplexity="6" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean CoverletRepro.CoverletRepro::TestStringOld(System.String)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="20" uspid="19" ordinal="0" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="20" uspid="20" ordinal="1" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="20" uspid="21" ordinal="2" sl="21" sc="1" el="21" ec="2" bec="6" bev="6" fileid="1" />
+                <SequencePoint vc="8" uspid="22" ordinal="3" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="8" uspid="23" ordinal="4" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" uspid="26" ordinal="5" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="20" uspid="27" ordinal="6" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="10" uspid="21" ordinal="0" path="0" offset="19" offsetend="21" sl="21" fileid="1" />
+                <BranchPoint vc="10" uspid="21" ordinal="2" path="0" offset="24" offsetend="26" sl="21" fileid="1" />
+                <BranchPoint vc="10" uspid="21" ordinal="1" path="1" offset="19" offsetend="36" sl="21" fileid="1" />
+                <BranchPoint vc="10" uspid="21" ordinal="3" path="1" offset="24" offsetend="36" sl="21" fileid="1" />
+                <BranchPoint vc="8" uspid="21" ordinal="4" path="0" offset="39" offsetend="41" sl="21" fileid="1" />
+                <BranchPoint vc="12" uspid="21" ordinal="5" path="1" offset="39" offsetend="46" sl="21" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="7" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="19" ec="1" el="27" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>

@@ -1,0 +1,12 @@
+.vscode/
+.vs/
+*.vcxproj.user
+*.csproj.user
+appsettings.user.*
+bin/
+obj/
+x64/
+x86/
+Debug/
+Release/
+packages/
