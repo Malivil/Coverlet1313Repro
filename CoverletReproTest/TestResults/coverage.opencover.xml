@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CoverageSession>
   <Summary numSequencePoints="14" visitedSequencePoints="14" numBranchPoints="12" visitedBranchPoints="11" sequenceCoverage="100" branchCoverage="91.66" maxCyclomaticComplexity="12" minCyclomaticComplexity="12" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
   <Modules>
-    <Module hash="D8D43971-2FAD-40C0-8BAC-D012FD769189">
+    <Module hash="3E4B2424-5F2C-4DE4-921E-4B43E66477D4">
       <ModulePath>CoverletRepro.dll</ModulePath>
-      <ModuleTime>2022-03-15T12:33:50</ModuleTime>
+      <ModuleTime>2024-02-12T02:35:07</ModuleTime>
       <ModuleName>CoverletRepro</ModuleName>
       <Files>
-        <File uid="1" fullPath="D:\Documents\Other\Coding Projects\CoverletRepro\CoverletRepro\CoverletRepro.cs" />
+        <File uid="1" fullPath="C:\Users\mlebs\Downloads\Coverlet1313Repro\CoverletRepro\CoverletRepro.cs" />
       </Files>
       <Classes>
         <Class>
